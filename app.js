@@ -61,7 +61,6 @@ function deleteCheck(event) {
 function filterTodo(event) {
     const todos = todoList.childNodes
     todos.forEach(function(todo) {
-        console.log(event.target.value)
         switch(event.target.value) {
             case 'all':
                 todo.style.display = 'flex'
